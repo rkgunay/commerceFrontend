@@ -25,6 +25,7 @@ export class CategoryComponent implements OnInit {
 
   setCurrentCategory(category:Category){
     this.currentCategory = category;
+    
   }
 
   resetCurrentCategory(){
